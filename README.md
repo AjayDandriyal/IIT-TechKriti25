@@ -5,7 +5,9 @@
 ## Technical Workflow
 
 1. **Extract Financial Data**: Retrieve financial reports of selected companies (Reliance Industries, TCS, SBI) for FY24.
+![Screenshot 2025-03-28 074705](https://github.com/user-attachments/assets/f8e4a276-72aa-4ec9-8913-77d50c2ba2ce)
 2. **Process Data Using LLM**: The model interprets and converts financial data into a structured story format.
+
 3. **Generate JSON Output**: The final processed financial story is saved in a structured JSON file.
 4. **Frontend Display**: The data is visualized using a React-based frontend for better user interaction.
 
@@ -23,8 +25,11 @@ An example financial story for TCS is included in the project (refer to the uplo
 ## How to Use
 
 1. Run the backend to fetch and process financial reports.
+
 2. Generate financial stories using the LLM model.
+![Screenshot 2025-03-28 075240](https://github.com/user-attachments/assets/719fd8cd-bfec-4850-a0cb-4e492236eff4)
 3. Store the financial story in a JSON format.
+![Screenshot 2025-03-28 072626](https://github.com/user-attachments/assets/550fb6bd-6cb9-49d3-ad9f-f59e57e7c534)
 4. Load the JSON data into the frontend for visualization.
 
 ## Future Enhancements
